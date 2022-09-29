@@ -1,41 +1,54 @@
 <!DOCTYPE html>
-<html lang="de-AT"><head>
+<html lang="de-AT">
+
+<head>
     <meta charset="UTF-8">
-<title> Distant-Hotel | Home </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distant-Hotel | Home</title>
 </head>
 
 <body>
-<h1>"Willkommen zum Distant-Hotel"</h1>
-<h2>Your HOME Away From HOME</h2>
+    <header>
+        <h1>"Willkommen zum Distant-Hotel"</h1>
+        <h2>Your HOME Away From HOME</h2>
+    </header>
 
-<form action="/action_page.php" method="post" target="_blank">
-    <div>
-    <label for="uname">Username</label>
-    <input type="text" id="uname" name="uname" placeholder="Username" required>
-    <br>
-</div>
-<div>
-    <label for="pw">Passwort</label>
-    <input type="text" id="pw" name="pw" placeholder="Passwort"  required>
-    <br>
-    <br>
-    <input type="checkbox" id="save" name="save">
-    <label for="save">Username und Passwort merken</label>
-</div>
-<br>
-<button type="reset">Zurücksetzen</button>
-    <button type="submit">Bestätigen</button>
-</form>
- <div>
-<br>
-<br>
+    <main>
+        <form action="/action_page.php" method="post" target="_blank">
+            <div>
+                <label for="uname">Username</label>
+                <input type="text" id="uname" name="uname" placeholder="Username" required>
+                <br>
+            </div>
+            <div>
+                <label for="pw">Passwort</label>
+                <input type="text" id="pw" name="pw" placeholder="Passwort" required>
+                <br>
+                <br>
+                <input type="checkbox" id="save" name="save">
+                <label for="save">Username und Passwort merken</label>
+            </div>
+            <br>
+            <button type="reset">Zurücksetzen</button>
+            <button type="submit">Bestätigen</button>
+        </form>
+    </main>
 
-<a href="pages/Registrierung.html">Registrierung</a>
-<br>
-<a href="pages/Impressum.html">Impressum</a>
-<br>
-<a href="pages/FAQ.html">FAQ</a>
-<br>
- </div>
+    <br><br>
+
+    <footer>
+        <p>
+            <a href="../index.html">Startseite</a>
+        </p>
+        <p>
+            <a href="imprint.html">Impressum</a>
+        </p>
+        <p>
+            <a href="faq.html">FAQ</a>
+        </p>
+    </footer>
+
 </body>
+
 </html>

@@ -1,0 +1,79 @@
+body {
+    font-family: Nunito Sans, sans-serif;
+    margin: 0;
+    text-align: center;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.site-header {
+    background-image: url("../img/hotel-1.jpg");
+    height: 90vh;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.primary-header {
+    width: 10vw;
+    position: fixed;
+
+}
+
+.navbar-brand {
+    font-size: 1.rem;
+    color:  #425165 ;
+
+
+}
+
+
+
+
+.navbar {
+    justify-content: space-between;
+    padding-left: 1.3px;
+    padding-right: 1.3rem;
+    padding-top: 0.7px;
+    padding-bottom: 0.7px;
+    position: relative;
+    display: block;
+    align-items: center;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: auto;
+}
+
+li a{
+    display: inline-block;
+    padding: 8px;
+    background-color: #425165;
+}
+    h1 {
+    color:  rgb(62, 73, 109);
+    font-size: 2em;
+    margin-bottom: 0;
+
+}
+
+    h2 {
+        color:  rgb(62, 73, 109);
+        font-size: 2em;
+        margin-bottom: 75px;
+
+}
+
+p {
+    font-size: 1.5em;
+}
+

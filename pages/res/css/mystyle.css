@@ -5,7 +5,7 @@ body {
 
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
@@ -29,50 +29,54 @@ img{
 
 .navbar-brand {
     font-size: 1.rem;
-    color:  #425165 ;
+    color: #425165;
 
 
 }
 
 
-
-
-.navbar {
+.nav {
     justify-content: space-between;
     padding-left: 1.3px;
     padding-right: 1.3rem;
-    padding-top: 0.7px;
+    padding-top: 20px;
     padding-bottom: 0.7px;
     position: relative;
     display: block;
     align-items: center;
 
 }
+
+.nav li {
+    display: inline;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: auto;
 }
 
-li a{
+li a {
     display: inline-block;
     padding: 8px;
     background-color: #425165;
     color: #fff;
     font-family: "Nunito Sans", sans-serif;
 }
-    h1 {
-    color:  #1a5276;
+
+h1 {
+    color: #1a5276;
     font-size: 2em;
     margin-bottom: 0;
 
 }
 
-    h2 {
-        color:  #1a5276;
-        font-size: 3em;
-        margin-bottom: 50px;
-        font-family: "Passions Conflict", sans-serif;
+h2 {
+    color: #1a5276;
+    font-size: 3em;
+    margin-bottom: 50px;
+    font-family: "Passions Conflict", sans-serif;
 
 }
 
@@ -83,32 +87,30 @@ li a{
     padding-bottom: 10em;
     background-color: #1a5276;
     color: #fff;
-    
-
-
 }
-.item.social {
+
+.col item social {
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
     width: 36px;
     height: 36px;
     line-height: 36px;
-    display: inline-block;
-    text-align: center;
+    display: inline;
+    justify-content: space-between;
     border-radius: 50%;
     margin: 0 8px;
     opacity: 0.75;
-  }
-  @media (max-width:991px) {
+}
+
+@media (max-width:991px) {
     .footer-dark .item.social {
-      text-align: center;
-      margin-top: 20px;
+        text-align: center;
+        margin-top: 20px;
     }
-  }
-  
+}
+
 
 main {
     font-size: 1em;
 }
-

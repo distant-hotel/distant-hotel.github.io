@@ -2,6 +2,7 @@ body {
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
     text-align: center;
+    text-decoration: none;
 
 }
 
@@ -17,6 +18,7 @@ img {
     color: #fff;
     background-position: center;
     background-size: cover;
+    
 }
 
 
@@ -24,6 +26,7 @@ img {
 .primary-header {
     width: 10vw;
     position: fixed;
+    
 
 }
 
@@ -44,20 +47,27 @@ img {
     position: relative;
     display: block;
     align-items: center;
+    text-decoration: none;
 
 }
 
 .nav li {
     display: inline;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: auto;
+    
 }
 
 li a {
+    text-decoration: none;
     display: inline-block;
     padding: 8px;
     background-color: #425165;
@@ -101,13 +111,6 @@ h2 {
     border-radius: 50%;
     margin: 0 8px;
     opacity: 0.75;
-}
-
-@media (max-width:991px) {
-    .footer-dark .item.social {
-        text-align: center;
-        margin-top: 20px;
-    }
 }
 
 

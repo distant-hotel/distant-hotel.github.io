@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap);
+
 body {
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
     text-align: center;
-
 }
 
 img {
@@ -10,6 +12,13 @@ img {
     height: auto;
     vertical-align: middle;
 }
+
+
+#distant-logo {
+    max-height: 100px;
+}
+
+
 
 .site-header {
     background-image: url("../img/hotel-1.jpg");
@@ -24,14 +33,11 @@ img {
 .primary-header {
     width: 10vw;
     position: fixed;
-
 }
 
 .navbar-brand {
     font-size: 1.rem;
     color: #425165;
-
-
 }
 
 
@@ -44,7 +50,6 @@ img {
     position: relative;
     display: block;
     align-items: center;
-
 }
 
 .nav li {
@@ -72,13 +77,20 @@ h1 {
 
 }
 
-h2 {
+#slogan {
     color: #1a5276;
     font-size: 3em;
     margin-bottom: 50px;
     font-family: "Passions Conflict", sans-serif;
-
 }
+
+h2 {
+    color: #1a5276;
+    font-size: 3em;
+    margin-bottom: 50px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
 
 .primary-footer {
     padding-left: auto;
@@ -109,7 +121,6 @@ h2 {
         margin-top: 20px;
     }
 }
-
 
 main {
     font-size: 1em;

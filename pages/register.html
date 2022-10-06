@@ -5,71 +5,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Distant-Hotel | Registrierungs</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-        <link href="../pages/res/css/mystyle.css" rel="stylesheet" type="text/css">
+    <title>Distant-Hotel | Registrierung</title>
+    <link rel="stylesheet" type="text/css" href="res\css\mystyle.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1>Registrierungsformular</h1>
-    </header>
 
-    <main>
-        <!---können noch Placeholder überlegen einzusezten-->
-        <!--bei name autocomplete empfehlung der browser verwenden-->
-        <form action="/action_page.php" method="post" target="_blank">
-            <p>Anrede: </p>
-            <input type="radio" id="frau" name="anrede" value="frau" required>
-            <label for="frau">Frau</label><br>
-
-            <input type="radio" id="herr" name="anrede" value="herr">
-            <label for="herr">Herr</label><br>
-
-            <input type="radio" id="neutral" name="anrede" value="neutral">
-            <label for="neutral">Neutrale Anrede</label><br><br>
-
-            <label for="fname">Vorname:</label>
-            <input type="text" id="fname" name="fname" required><br><br>
-            <label for="lname">Nachname:</label>
-            <input type="text" id="lname" name="lname" required><br><br>
-            <label for="mail">E-Mail:</label>
-            <input type="email" id="mail" name="mail" required><br><br>
-
-            <label for="uname">Username:</label>
-            <input type="text" id="uname" name="uname" required><br><br>
-            <label for="pw">Passwort:</label>
-            <input type="password" id="pw" name="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                title="Muss mindestens eine Zahl und einen Groß- und Kleinbuchstaben sowie mindestens 8 oder mehr Zeichen enthalten"
-                required><br><br>
-            <label for="pw2">Wiederholung Passwort:</label>
-            <input type="password" id="pw2" name="pw2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-                title="Muss mindestens eine Zahl und einen Groß- und Kleinbuchstaben sowie mindestens 8 oder mehr Zeichen enthalten"
-                required><br><br>
-
-            <button type="reset">Zurücksetzen</button>
-            <button type="submit">Asenden</button>
-        </form>
-    </main>
-
-    <br><br>
-
-    <footer>
-        <p>
-            <a href="../index.html">Startseite</a>
-        </p>
-        <p>
-            <a href="imprint.html">Impressum</a>
-        </p>
-        <p>
-            <a href="faq.html">FAQ</a>
-        </p>
-    </footer>
+    <body>
+        <header class="site-header">
+            <div class="primary-header">
+                <nav class="container">
+                    <a class="navbar-brand" href="../index.html">
+                        <img class="distant-logo" src="res/img/distant-logo.PNG" alt="distant-logo">
+                        Distant-Hotel
+                    </a>
+                </nav>
+            </div>
+            <div class="secondory-header">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="imprint.html">Impressum</a></li>
+                        <li><a href="faq.html">FAQ/Hilfe</a></li>
+                        <li><a href="register.html">Registrierung</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
 
+        <main>
 
-</body>
+            <div class="headline">
+                <section>
+                    <h1>Registrierungsformular</h1>
+                </section>
+            </div>
+
+            <!---können noch Placeholder überlegen einzusezten-->
+            <!--bei name autocomplete empfehlung der browser verwenden-->
+            <form action="/action_page.php" method="post" target="_blank">
+                <p>Anrede: </p>
+                <input type="radio" id="frau" name="anrede" value="frau" required>
+                <label for="frau">Frau</label><br>
+
+                <input type="radio" id="herr" name="anrede" value="herr">
+                <label for="herr">Herr</label><br>
+
+                <input type="radio" id="neutral" name="anrede" value="neutral">
+                <label for="neutral">Neutrale Anrede</label><br><br>
+
+                <label for="fname">Vorname:</label>
+                <input type="text" id="fname" name="fname" required><br><br>
+                <label for="lname">Nachname:</label>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="mail">E-Mail:</label>
+                <input type="email" id="mail" name="mail" required><br><br>
+
+                <label for="uname">Username:</label>
+                <input type="text" id="uname" name="uname" required><br><br>
+                <label for="pw">Passwort:</label>
+                <input type="password" id="pw" name="pw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Muss mindestens eine Zahl und einen Groß- und Kleinbuchstaben sowie mindestens 8 oder mehr Zeichen enthalten"
+                    required><br><br>
+                <label for="pw2">Wiederholung Passwort:</label>
+                <input type="password" id="pw2" name="pw2" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Muss mindestens eine Zahl und einen Groß- und Kleinbuchstaben sowie mindestens 8 oder mehr Zeichen enthalten"
+                    required><br><br>
+
+                <button type="reset">Zurücksetzen</button>
+                <button type="submit">Asenden</button>
+            </form>
+        </main>
+
+        <br><br>
+
+        <footer class="primary-footer">
+            <div class="col item social">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fa fa-facebook">Facebook</i>
+                </a>
+                &nbsp;
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fa fa-twitter">Twitter</i>
+                </a>
+                &nbsp;
+                <a href="https://youtube.com" target="_blank">
+                    <i class="fa fa-youtube">Youtube</i>
+                </a>
+                &nbsp;
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fa fa-instagram">Instagram</i>
+                </a>
+                &nbsp;
+                <a href="https://google.com" target="_blank">
+                    <i class="fa fa-google">Google</i>
+                </a>
+
+                <p>© 2022 Distant Hotel GmbH</p>
+
+            </div>
+
+        </footer>
+
+
+    </body>
 
 </html>

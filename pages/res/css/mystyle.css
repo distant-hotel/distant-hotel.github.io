@@ -37,6 +37,10 @@ img {
     position: fixed;
 }
 
+.secondary-header {
+    
+}
+
 .navbar-brand {
     font-size: 1.rem;
     color: #425165;
@@ -97,9 +101,17 @@ h2 {
     color: #1a5276;
     font-size: 3em;
     margin-bottom: 50px;
-    font-family: "Nunito Sans", sans-serif;
-}
+    font-family: "Passions Conflict", sans-serif;
 
+}
+h3 {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 20px;
+    text-align: left;
+    
+
+}
 
 .primary-footer {
     padding-left: auto;

@@ -1,11 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap);
 
+
 body {
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
     text-align: center;
     text-decoration: none;
+}
+
+.faq-content {
+    text-align: left;
 }
 
 img {
@@ -14,12 +19,9 @@ img {
     vertical-align: middle;
 }
 
-
-#distant-logo {
+.distant-logo {
     max-height: 100px;
 }
-
-
 
 .site-header {
     background-image: url("../img/hotel-1.jpg");
@@ -27,10 +29,7 @@ img {
     color: #fff;
     background-position: center;
     background-size: cover;
-
 }
-
-
 
 .primary-header {
     width: 10vw;
@@ -41,7 +40,6 @@ img {
     font-size: 1.rem;
     color: #425165;
 }
-
 
 .nav {
     justify-content: space-between;
@@ -60,14 +58,12 @@ img {
     text-decoration: none;
     padding-left: 1em;
     padding-right: 1em;
-
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: auto;
-
 }
 
 li a {
@@ -83,30 +79,28 @@ h1 {
     color: #1a5276;
     font-size: 2em;
     margin-bottom: 0;
-
 }
 
-#slogan {
+.slogan {
     color: #1a5276;
     font-size: 3em;
     margin-bottom: 50px;
     font-family: "Passions Conflict", sans-serif;
 }
 
+/* "You home away..." wird über .slogan oben gestylt, restliche h2 mit font Nunito */
 h2 {
     color: #1a5276;
     font-size: 3em;
     margin-bottom: 50px;
-    font-family: "Passions Conflict", sans-serif;
-
+    font-family: "Nunito Sans", sans-serif;
 }
+
 h3 {
     color:#1a5276;
     font-size: 1em;
     margin-bottom: 20px;
     text-align: left;
-    
-
 }
 
 .primary-footer {

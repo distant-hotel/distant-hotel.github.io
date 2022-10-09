@@ -97,13 +97,14 @@ h2 {
 }
 
 h3 {
-    color: #fff;
+    color:#1a5276;
     font-size: 1em;
     margin-bottom: 20px;
     text-align: left;
 }
 
 .primary-footer {
+    font-family: "Nunito Sans", sans-serif;
     padding-left: auto;
     padding-right: auto;
     padding-top: 10em;
@@ -112,7 +113,8 @@ h3 {
     color: #fff;
 }
 
-.col item social {
+.col-item-social {
+    color: #fff;
     text-align: center;
     margin-top: 20px;
     font-size: 20px;
